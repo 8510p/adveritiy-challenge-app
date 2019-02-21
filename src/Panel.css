@@ -1,0 +1,9 @@
+.component-panel {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.component-panel > div{
+  flex-direction: row;
+}

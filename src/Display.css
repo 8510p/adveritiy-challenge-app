@@ -1,0 +1,20 @@
+.display{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 400px;
+    margin: 10px 10px 10px 10px;
+}
+
+.display > div:nth-child(even){
+    flex-shrink: 5;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+}
+
+.display > div:nth-child(odd){
+    padding: 10px 10px 10px 10px;
+}
+
